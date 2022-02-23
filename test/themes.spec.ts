@@ -1,4 +1,4 @@
-import { config, expect } from "chai";
+import { expect } from "chai";
 import { Theme, DefaultThemes, ThemeArgs } from "../src/themes";
 
 describe("Themes", () => {
@@ -51,14 +51,10 @@ describe("Themes", () => {
         code: "white",
         headings: "#432",
         margins: 12,
+        color: "blue",
       };
       let obj = new Theme("light", themeConfig);
       expect(obj.config).to.deep.equal(themeConfig);
-    });
-
-    it.skip("should load the new theme directly from the object", () => {
-      let obj = new Theme("light", {});
-      expect(obj.config).to.be.undefined;
     });
   });
 });

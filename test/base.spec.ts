@@ -1,8 +1,5 @@
-// import assert from "assert";
-import * as chai from "chai";
+import { expect } from "chai";
 import { PrettyMarkdown } from "../src/index";
-
-const { expect } = chai;
 
 describe("PrettyMarkdown", () => {
   describe("Loader", () => {
