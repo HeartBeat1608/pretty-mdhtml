@@ -1,0 +1,47 @@
+{
+  "name": "pretty-mdhtml",
+  "version": "0.1.0",
+  "description": "A themed markdown to HTML converter for quick markdown render.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "make test",
+    "start": "make serve",
+    "build": "make build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/heartbeat1608.git"
+  },
+  "keywords": [
+    "Markdown",
+    "HTML",
+    "render",
+    "convert",
+    "fast",
+    "theme",
+    "styled",
+    "customizable"
+  ],
+  "author": "Durgesh Pandey <durgesh01608@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github.com/heartbeat1608/issues"
+  },
+  "homepage": "https://github.com/github.com/heartbeat1608#readme",
+  "dependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/dompurify": "^2.3.3",
+    "@types/marked": "^4.0.2",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.19",
+    "chai": "^4.3.6",
+    "dompurify": "^2.3.6",
+    "marked": "^4.0.12",
+    "mocha": "^9.2.1",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "ts-mocha": "^9.0.2"
+  }
+}
