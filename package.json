@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github.com/heartbeat1608.git"
+    "url": "git@github.com:HeartBeat1608/pretty-mdhtml.git"
   },
   "keywords": [
     "Markdown",
@@ -25,9 +25,9 @@
   "author": "Durgesh Pandey <durgesh01608@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/github.com/heartbeat1608/issues"
+    "url": "git@github.com:HeartBeat1608/pretty-mdhtml/issues"
   },
-  "homepage": "https://github.com/github.com/heartbeat1608#readme",
+  "homepage": "git@github.com:HeartBeat1608/pretty-mdhtml#readme",
   "dependencies": {
     "@types/chai": "^4.3.0",
     "@types/dompurify": "^2.3.3",
